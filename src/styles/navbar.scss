@@ -1,0 +1,28 @@
+@import '../styles/variables.scss';
+
+.navbarHeader {
+  color: white;
+  height: 82px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $navbarFundo;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+  .navbarHeaderMainWrapper {
+    display: flex;
+
+  }
+
+  .navbarHeaderNav {
+    margin-left: 16em;
+    display: flex;
+    gap: 4.438em;
+    
+    a {
+      text-decoration: none;
+      color:  white;
+    }
+  }
+}

@@ -1,0 +1,39 @@
+@import '../styles/variables.scss';
+
+.heroSectionWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6.625em;
+  flex-direction: column;
+
+  .heroSectionImage {
+
+    img {
+      border-radius: 50%;
+      margin-bottom: 2.625em;
+    }
+  }
+
+  .heroSectionText {
+    text-align: center;
+    color: white;
+
+    .aboutGradient {
+      background: linear-gradient(98deg, #FF8660 0%, #9A33FF 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      color: transparent;
+    }
+
+    h1 {
+      font-size: 55px;
+      font-weight: 900;
+    }
+    p {
+      font-size: 18px;
+      font-weight: 200;
+    }
+  }
+}
