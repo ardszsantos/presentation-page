@@ -16,11 +16,22 @@ const HeroSectionComponent = () => {
         </p>
       </div>
       <div className='heroSectionButtons'>
-        <button>Get in Touch</button>
-        <button>Download CV</button>
+        <button className='heroButton1'><span>Get in Touch</span></button>
+        <button className='heroButton2'><span>Download CV</span></button>
+      </div>
+      <div className='heroSectionExperiences'>
+        <p className='heroSectionExperiencesP'>EXPERIENCE WITH</p>
+        <div className='heroSectionExperiencesIcons'>
+          <img src='javascript.svg'></img>
+          <img src='reactjs.svg'></img>
+          <img src='html.svg'></img>
+          <img src='css.svg'></img>
+          <img src='nodejs.svg'></img>
+        </div>
       </div>
     </div>
   );
 }
 
 export default HeroSectionComponent;
+

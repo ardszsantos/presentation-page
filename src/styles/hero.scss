@@ -1,4 +1,6 @@
 @import '../styles/variables.scss';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 
 .heroSectionWrapper {
   display: flex;
@@ -6,14 +8,16 @@
   align-items: center;
   margin-top: 6.625em;
   flex-direction: column;
+  font-family: "Poppins", system-ui;
 
   .heroSectionImage {
 
     img {
       border-radius: 50%;
-      margin-bottom: 2.625em;
+      margin-bottom: 0.5em;
     }
   }
+  
 
   .heroSectionText {
     text-align: center;
@@ -34,6 +38,58 @@
     p {
       font-size: 18px;
       font-weight: 200;
+      color: $secondaryText;
     }
   }
+  
+  .heroSectionButtons {
+    margin-top: 3.375em;
+    display: flex;
+    gap: 1.125em;
+
+    .heroButton1, .heroButton2 {
+      width: 12.75em;
+      height: 4em;
+      border-radius: 3.125em;
+      background-color: transparent;
+      color: white;
+      font-weight: 600;
+      font-family: "Poppins", system-ui;
+      border: 2px solid white;
+      padding: 0.688em;
+
+      &:hover {
+        background-color: white;
+        color: black;
+        border: 2px solid black;
+        cursor: pointer;
+      }
+      
+    }
+
+    .heroButton2 span, .heroButton1 span {
+      font-size: 19px;
+      
+    }
+  }
+
+  .heroSectionExperiences {
+    margin-top: 55px;
+    text-align: center;
+    margin-bottom: 6.188em;
+
+    .heroSectionExperiencesP {
+      font-size: 1.25em;
+      letter-spacing: 0.12em;
+      color: $secondaryText;
+      font-weight: 600;
+      margin-bottom: 3em;
+    }
+
+    .heroSectionExperiencesIcons {
+      display: flex;
+      gap: 3.778em;
+    }
+  }
+
 }
