@@ -1,6 +1,7 @@
 
 import './App.scss';
 import ExperienceSection from './components/experience';
+import FooterComponent from './components/footer';
 import HeroSectionComponent from './components/heroSection';
 import NavbarComponent from './components/navbar';
 import ProjectsSection from './components/projects';
@@ -12,6 +13,7 @@ function App() {
       <HeroSectionComponent/>
       <ProjectsSection/>
       <ExperienceSection/>
+      <FooterComponent/>
     </div>
   );
 }

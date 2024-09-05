@@ -1,0 +1,41 @@
+.footer-container {
+  width: 100%;
+  height: 418px;
+  background-color: #191919;
+
+  display: flex;
+  flex-direction: column;
+  margin-right: 30em;
+  justify-content: center;
+ 
+
+
+  gap: 34px;
+  color: white;
+
+  &-p {
+      max-width: 676px;
+      text-align: center;
+    }
+
+
+
+
+  &-text h1 {
+    margin-bottom: 34px;
+  }  
+
+  &-text h1, p{
+    text-align: left;
+  
+    
+  }
+}
+
+.footer-container-p {
+  margin-bottom: 22px;
+
+  &-2 {
+    margin-bottom: 41px;
+  }
+}
