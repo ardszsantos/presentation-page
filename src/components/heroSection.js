@@ -22,11 +22,12 @@ const HeroSectionComponent = () => {
       <div className='heroSectionExperiences'>
         <p className='heroSectionExperiencesP'>EXPERIENCE WITH</p>
         <div className='heroSectionExperiencesIcons'>
-          <img src='javascript.svg'></img>
-          <img src='reactjs.svg'></img>
-          <img src='html.svg'></img>
-          <img src='css.svg'></img>
-          <img src='nodejs.svg'></img>
+          <img src={`${process.env.PUBLIC_URL}javascript.svg`}></img>
+          <img src={`${process.env.PUBLIC_URL}reactjs.svg`}></img>
+          <img src={`${process.env.PUBLIC_URL}css.svg`}></img>
+          <img src={`${process.env.PUBLIC_URL}html.svg`}></img>
+          <img src={`${process.env.PUBLIC_URL}nodejs.svg`}></img>
+          <img src={`${process.env.PUBLIC_URL}python-gray.svg`}></img>
         </div>
       </div>
     </div>
