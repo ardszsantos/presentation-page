@@ -27,7 +27,7 @@ const HeroSectionComponent = () => {
           <img src={`${process.env.PUBLIC_URL}css.svg`}></img>
           <img src={`${process.env.PUBLIC_URL}html.svg`}></img>
           <img src={`${process.env.PUBLIC_URL}nodejs.svg`}></img>
-          <img src={`${process.env.PUBLIC_URL}python-gray.svg`}></img>
+          <img src={`${process.env.PUBLIC_URL}pyton2.svg`}></img>
         </div>
       </div>
     </div>
