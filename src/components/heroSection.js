@@ -2,7 +2,7 @@ import '../styles/hero.scss';
 
 const HeroSectionComponent = () => {
   return (  
-    <div className='heroSectionWrapper'>
+    <div className='heroSectionWrapper' id='home'>
       <div className='heroSectionImage'>
         <img src="https://placehold.co/213x213" alt="minha foto"/>
       </div>

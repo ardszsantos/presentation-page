@@ -1,41 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import '../styles/variables.scss';
+p, h1 {
+    font-family: "Poppins", system-ui;
+}
+
+
 .footer-container {
   width: 100%;
   height: 418px;
   background-color: #191919;
-
-  display: flex;
-  flex-direction: column;
-  margin-right: 30em;
-  justify-content: center;
- 
-
-
-  gap: 34px;
   color: white;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 0;
+  
   &-p {
-      max-width: 676px;
-      text-align: center;
+    color: $secondaryText;
+    font-size: 14px;
+    font-weight: light;
+  }
+
+  &-wrapper {
+    width: 93%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 676px;
+    margin-right: 125px;
+
+    &-upperText {
+      display: flex;
+      flex-direction: column;
+      gap: 34px;
     }
 
+    &-upperText h1 {
+      font-size: 23px;
+      font-weight: bold;
+    }
 
+    &-email,
+    &-socials {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      margin-top: 22px;
+      color: $secondaryText;
+    }
 
-
-  &-text h1 {
-    margin-bottom: 34px;
-  }  
-
-  &-text h1, p{
-    text-align: left;
-  
-    
-  }
-}
-
-.footer-container-p {
-  margin-bottom: 22px;
-
-  &-2 {
-    margin-bottom: 41px;
+    &-socials {
+      margin-top: 42px;
+      gap: 27px;
+    }
   }
 }

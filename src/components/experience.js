@@ -2,7 +2,7 @@ import '../styles/experience.scss'
 
 const ExperienceSection = () => {
   return (  
-    <div className="experience-container">
+    <div className="experience-container" id='experience'>
       <h1 className='experience-container-h1'>EXPERIENCE</h1>
       <div className='experience-container-descriptions'>
         <div className="experience-container-descriptions-1">

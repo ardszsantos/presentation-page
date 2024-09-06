@@ -3,7 +3,7 @@ import ProjectCard from './projectCard';
 
 const ProjectsSection = () => {
   return (  
-    <div className="projects-container">
+    <div className="projects-container" id='projects'>
       <h1 className='projects-container-h1'>PROJECTS</h1>
       <div className='projects-container-cards'>
         <a href='https://github.com/ardszsantos/foodi-tailwindreact' target='_blank'><ProjectCard 

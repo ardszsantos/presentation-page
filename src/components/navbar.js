@@ -5,7 +5,7 @@ const NavbarComponent = () => {
     <header className='navbarHeader'>
       <div className='navbarHeaderMainWrapper'>
         <div className='navbarHeaderLogo'>
-          logo
+          <a href='#'><code>ale.dev</code></a>
         </div>
         <nav className='navbarHeaderNav'>
           <a href="#home">Home</a>
