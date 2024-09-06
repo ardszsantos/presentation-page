@@ -4,15 +4,15 @@ const HeroSectionComponent = () => {
   return (  
     <div className='heroSectionWrapper' id='home'>
       <div className='heroSectionImage'>
-        <img src="https://placehold.co/213x213" alt="minha foto"/>
+        <img src={`${process.env.PUBLIC_URL}fred.webp`} alt="minha foto"/>
       </div>
       <div className='heroSectionText'>
-        <h1>I do code and <br/> make content <span className='aboutGradient'> about it! </span> </h1>
+        <h1>I love to code and <br /> build <span className='aboutGradient'> awesome projects! </span> </h1>
         <p>
-          I am a seasoned full-stack software engineer with over <br/>
-          8 years of professional experience, specializing in backend development.<br />
-          My expertise lies in crafting robust and scalable SaaS-based<br />
-          architectures on the Amazon AWS platform.
+          I am a full-stack web developer with over 3 
+          years of professional experience,<br /> specializing in front-end development.
+          My expertise lies in crafting <br /> stunning web experiences
+          with efficiency and passion.
         </p>
       </div>
       <div className='heroSectionButtons'>

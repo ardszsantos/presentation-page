@@ -31,7 +31,7 @@ const ExperienceSection = () => {
           <div className='experience-container-descriptions-3-upper'>    
             <div className="experience-container-descriptions-3-upper-img">
               <img src={`${process.env.PUBLIC_URL}react.svg`} alt=""></img>
-              <h2>Plataforma de Receitas – Foodi Tailwind React - ReactJS</h2>
+              <h2>Foodi Landing Page,   Tailwind - ReactJS</h2>
             </div>
             <p>2024 - Presente</p>
           </div>
