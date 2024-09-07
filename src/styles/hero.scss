@@ -99,4 +99,12 @@
     }
   }
 
+
+    @media (max-width: 453px) {
+      .heroSectionExperiencesIcons {
+        display: grid;
+        grid-template-columns: (2, 1fr);
+      }
+    }
+
 }

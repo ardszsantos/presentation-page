@@ -23,7 +23,7 @@ p, h2 {
     }
 
     &-descriptions {
-      max-width: 810px;
+      width: 810px;
       display: flex;
       flex-direction: column;
       gap: 50px;
@@ -64,4 +64,7 @@ p, h2 {
         margin-bottom: 3.057em;
       }
     }
+
+
+
 }

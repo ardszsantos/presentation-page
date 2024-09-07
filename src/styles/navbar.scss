@@ -3,35 +3,31 @@
 
 
 .navbarHeader {
-  color: white;
-  height: 82px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: $navbarFundo;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  font-family: "Poppins", system-ui;
   position: sticky;
   top: 0;
   z-index: 1;
-
-  
 
   .navbarHeaderMainWrapper {
     display: flex;
     gap: 4em;
     margin-left: 200px;
+    color: white;
+    height: 82px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", system-ui;
   }
 
   .navbarHeaderNav {
-    margin-left: 16em;
     display: flex;
     gap: 4.438em;
-    
+
     a {
       text-decoration: none;
-      color:  white;
+      color: white;
     }
   }
 
@@ -39,5 +35,76 @@
     text-decoration: none;
     color: $secondaryText;
     cursor: pointer;
+    margin-right: 16em;
+  }
+
+  // Hamburger Menu
+  .hamburgerMenu {
+    margin-right:  5vw;
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+
+    span {
+      background: white;
+      height: 2px;
+      margin: 4px 0;
+      width: 25px;
+    }
+  }
+
+  .dropdownMenu {
+    display: none;
+    flex-direction: column;
+    background-color: $navbarFundo;
+    position: absolute;
+    top: 82px;
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+    a {
+      color: white;
+      padding: 10px;
+      text-align: center;
+      text-decoration: none;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }
+  }
+
+  @media (max-width: 768px) {
+    .navbarHeaderMainWrapper {
+      justify-content: space-between;
+      margin-left: 0;
+
+      
+    }
+
+    .navbarHeaderNav {
+      display: none;
+    }
+
+    .hamburgerMenu {
+      display: flex;
+    }
+
+    .dropdownMenu.active {
+      display: flex;
+    }
+
+    .navbarHeaderLogo {
+      margin-left: 40px;
+    }
+
+  }
+
+    @media (max-width: 453px) {
+    .hamburgerMenu {
+      position: absolute;
+      margin-left: 3em;
+    }
+    .navbarHeaderLogo {
+      margin-left: 19em;
+    }
   }
 }
