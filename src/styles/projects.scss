@@ -19,4 +19,13 @@
     gap: 30px;
     margin-bottom: 6em;
   }
+
+
+    @media (max-width: 800px) { 
+      &-cards {
+          display: flex;
+          flex-direction: column;
+        }
+    }
+    
 }

@@ -70,3 +70,12 @@
   transform: scale(1.02);
   cursor: pointer;
 }
+
+
+@media (max-width: 399px) {
+  .card {
+      display: flex;
+      flex-direction: column;
+      width: 350px;
+    }
+}

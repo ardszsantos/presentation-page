@@ -102,8 +102,19 @@
 
     @media (max-width: 453px) {
       .heroSectionExperiencesIcons {
-        display: grid;
-        grid-template-columns: (2, 1fr);
+        display: grid!important;
+        grid-template-columns: repeat(3, 1fr);
+      }
+
+      .heroSectionText {
+        h1 {
+          
+          font-size: 45px;
+        }
+
+        p {
+          font-size: 20px;
+        }
       }
     }
 
