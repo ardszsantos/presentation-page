@@ -79,3 +79,11 @@
       width: 350px;
     }
 }
+
+@media (max-width: 344px) {
+  .card {
+      display: flex;
+      flex-direction: column;
+      width: 320px;
+    }
+}
