@@ -11,15 +11,15 @@ const FooterComponent = () => {
               comprehensive skill set encompassing front-end and back-end technologies </p>
           </div>
           <div className='footer-container-wrapper-email'>
-              <img src={`${process.env.PUBLIC_URL}email-icon.svg`} alt="email-icon" />
+              <img src={`${process.env.PUBLIC_URL}/email-icon.svg`} alt="email-icon" />
             <p>
               fredredev@gmail.com
             </p>
           </div>
           <div className='footer-container-wrapper-socials'>
-            <img src={`${process.env.PUBLIC_URL}instagram.svg`} alt="instagram" />
-            <img src={`${process.env.PUBLIC_URL}x.svg`} alt="twitterX" />
-            <img src={`${process.env.PUBLIC_URL}youtube.svg`} alt="youtube" />
+            <img src={`${process.env.PUBLIC_URL}/instagram.svg`} alt="instagram" />
+            <img src={`${process.env.PUBLIC_URL}/x.svg`} alt="twitterX" />
+            <img src={`${process.env.PUBLIC_URL}/youtube.svg`} alt="youtube" />
           </div>
       </div>
     </footer>

@@ -4,7 +4,7 @@ const HeroSectionComponent = () => {
   return (  
     <div className='heroSectionWrapper' id='home'>
       <div className='heroSectionImage'>
-        <img src={`${process.env.PUBLIC_URL}fred.webp`} alt="minha foto"/>
+        <img src={`${process.env.PUBLIC_URL}/fred.webp`} alt="minha foto"/>
       </div>
       <div className='heroSectionText'>
         <h1>I love to code and <br /> build <span className='aboutGradient'> awesome projects! </span> </h1>
@@ -22,12 +22,12 @@ const HeroSectionComponent = () => {
       <div className='heroSectionExperiences'>
         <p className='heroSectionExperiencesP'>EXPERIENCE WITH</p>
         <div className='heroSectionExperiencesIcons'>
-          <img src={`${process.env.PUBLIC_URL}javascript.svg`}></img>
-          <img src={`${process.env.PUBLIC_URL}reactjs.svg`}></img>
-          <img src={`${process.env.PUBLIC_URL}css.svg`}></img>
-          <img src={`${process.env.PUBLIC_URL}html.svg`}></img>
-          <img src={`${process.env.PUBLIC_URL}nodejs.svg`}></img>
-          <img src={`${process.env.PUBLIC_URL}pyton2.svg`}></img>
+          <img src={`${process.env.PUBLIC_URL}/javascript.svg`}></img>
+          <img src={`${process.env.PUBLIC_URL}/reactjs.svg`}></img>
+          <img src={`${process.env.PUBLIC_URL}/css.svg`}></img>
+          <img src={`${process.env.PUBLIC_URL}/html.svg`}></img>
+          <img src={`${process.env.PUBLIC_URL}/nodejs.svg`}></img>
+          <img src={`${process.env.PUBLIC_URL}/pyton2.svg`}></img>
         </div>
       </div>
     </div>

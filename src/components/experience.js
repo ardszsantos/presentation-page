@@ -8,7 +8,7 @@ const ExperienceSection = () => {
         <div className="experience-container-descriptions-1">
           <div className='experience-container-descriptions-1-upper'>
             <div className="experience-container-descriptions-3-upper-img">
-              <img src={`${process.env.PUBLIC_URL}python.svg`} alt=""></img>
+              <img src={`${process.env.PUBLIC_URL}/python.svg`} alt=""></img>
               <h2>Projeto de Automação com Visão Computacional - Python</h2>
             </div>       
             <p>2024 - Presente</p>
@@ -19,7 +19,7 @@ const ExperienceSection = () => {
         <div className="experience-container-descriptions-2">
           <div className='experience-container-descriptions-2-upper'> 
             <div className="experience-container-descriptions-3-upper-img">
-              <img src={`${process.env.PUBLIC_URL}react.svg`} alt=""></img>
+              <img src={`${process.env.PUBLIC_URL}/react.svg`} alt=""></img>
               <h2>Loja Virtual Fullstack – Ecommerce Store e Admin - ReactJS</h2>
             </div>   
             <p>2024 - Presente</p>
@@ -30,7 +30,7 @@ const ExperienceSection = () => {
         <div className="experience-container-descriptions-3">
           <div className='experience-container-descriptions-3-upper'>    
             <div className="experience-container-descriptions-3-upper-img">
-              <img src={`${process.env.PUBLIC_URL}react.svg`} alt=""></img>
+              <img src={`${process.env.PUBLIC_URL}/react.svg`} alt=""></img>
               <h2>Foodi Landing Page,   Tailwind - ReactJS</h2>
             </div>
             <p>2024 - Presente</p>
