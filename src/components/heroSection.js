@@ -9,11 +9,11 @@ const HeroSectionComponent = () => {
       <div className='heroSectionText'>
         <h1>I love to code and <br /> build <span className='aboutGradient'> awesome projects! </span> </h1>
         <p>
-          I am a full-stack web developer with over 3 
-          years of professional experience,<br /> specializing in front-end development.
-          My expertise lies in crafting <br /> stunning web experiences
-          with efficiency and passion.
+          Sou desenvolvedor web full-stack com 2 anos de experiência profissional,<br />
+          com foco em front-end.<br />
+          Tenho trabalhado em projetos reais que me permitiram construir soluções práticas e funcionais, unindo design e eficiência.
         </p>
+
       </div>
       <div className='heroSectionButtons'>
         <button className='heroButton1'><span>Get in Touch</span></button>
